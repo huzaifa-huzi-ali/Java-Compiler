@@ -1,0 +1,30 @@
+package parser;
+
+public enum TokenType {
+    IDENTIFIER,
+    INT_KEYWORD,
+    FLOAT_KEYWORD,
+    STRING_KEYWORD,
+    INT_LITERAL,
+    FLOAT_LITERAL,
+    STRING_LITERAL,
+    IF,
+    ELSE,
+    RETURN,
+    FOR,
+    WHILE,
+    EQ, NE, LT, GT, LE, GE,
+    ASSIGN,
+    PLUS,
+    MINUS,
+    MUL,
+    DIV,
+    SEMICOLON,
+    COMMA,
+    LPAREN,
+    RPAREN,
+    LBRACE,
+    RBRACE,
+    EOF,
+    UNKNOWN
+}
